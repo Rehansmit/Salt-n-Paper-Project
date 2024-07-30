@@ -92,30 +92,124 @@ h1{
 h2{
     color: gray;
     font-size: 20px;
+    display: inline-block;
 }
 .slid3{
     display: inline-block;
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-color: black;
 }
 
 .slid3 img{
-    height: 300px;
+    height: 250px;
     width: 25%;
     display: inline-block;
     justify-content: center;
     text-align: center;
     margin-left: 80px;
 }
-.bttn{
+.bttn-1{
     height: 60px;
-    width: 150px;
+    width: 200px;
     background-color: black;
  border-radius: 30px;
- border: 2px solid white;align-items: center;
- justify-content: space-around;
- display: inline-block;
+ border: 2px solid white;
+ color: white;
+ padding: 5px;
  
+}
+
+.bttn-2{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+ border-radius: 30px;
+ border: 2px solid white;
+  color: white;
+ padding: 5px;
+ 
+ 
+}
+.bttn-3{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+ border-radius: 30px;
+ border: 2px solid white;
+ color: white;
+ padding: 5px;
+  
+}
+.slid-3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.slid4{
+    display: inline-block;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+}
+
+.slid5{
+    display: inline-block;
+    justify-content: right;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+.rest{
+    height: 350px;
+    width: 50%;
+    text-align: left;
+    margin-left: 50px;
+   
+}
+.rest-5{
+    color: red;
+    letter-spacing: 5px;
+    text-align: right;
+    margin-top: 5px;
+    font-weight: 400px;
+    font-size: larger;
+    }
+    .hed-1{
+        font-family: cfont;
+        font-size: 40px;
+        color: white;
+        
+    }
+span{
+    font-size: xx-large;
+    color: white;
+}
+.location-{
+    margin-right: 10px;
+}
+.btn-sl5{
+    height: 60px;
+    width: 200px;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: black;
+}
+.rest-img{
+    display: inline-block;
+    height: 300px;
+    width: 40%;
+}
+.rest-img img{
+     height: 300px;
+   width: 40%;
+   text-align: right;
 
 }
