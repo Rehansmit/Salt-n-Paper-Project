@@ -1,0 +1,121 @@
+@font-face {
+    font-family: cfont;
+    src: url(assets/AbrilFatface-Regular.ttf);
+}
+
+
+
+
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin-top: 0px;
+
+}
+
+.line{
+    height: 4px;
+    width: 100%;
+    background-color: red;
+    margin-top: 100px;
+    position: fixed;
+}
+
+
+
+img{
+    height: 60px;
+    width: 200px;
+}
+ul li{display: inline-block;
+    color: white;
+   
+   }
+
+#btn-1{
+    width: 150px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+#btn-2{
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
+
+ul li{
+    margin-right: 0px;
+    margin-left: 40px;
+}
+.slid{
+    width: 100%;
+    height: 700px;
+    background-color: aqua;
+    margin-top: 106px;
+    display: inline-block;
+background-image: url(assets/sec1.png);
+   }
+
+.slid2{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    text-align: center;
+
+}
+h1{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    word-spacing: 10px;
+}
+.hed{
+    font-family: cfont;
+    font-size: 50px;
+    
+}
+h2{
+    color: gray;
+    font-size: 20px;
+}
+.slid3{
+    display: inline-block;
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
+
+.slid3 img{
+    height: 300px;
+    width: 25%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+}
+.bttn{
+    height: 60px;
+    width: 150px;
+    background-color: black;
+ border-radius: 30px;
+ border: 2px solid white;align-items: center;
+ justify-content: space-around;
+ display: inline-block;
+ 
+
+}
