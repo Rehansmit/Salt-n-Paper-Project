@@ -1,6 +1,6 @@
 @font-face {
     font-family: cfont;
-    src: url(assets/AbrilFatface-Regular.ttf);
+    src: url(assets/SISTEMAS\ FONT\ BT.ttf);
 }
 
 
@@ -61,6 +61,7 @@ ul li{display: inline-block;
 ul li{
     margin-right: 0px;
     margin-left: 40px;
+    font-size: medium;
 }
 .slid{
     width: 100%;
@@ -373,3 +374,40 @@ span{
             text-align: center;
             height: 450px;
             width: 100%;}
+            
+.slid9{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+
+}
+.v-loc{
+    font-size: medium;
+    color: gray;
+}
+.btn-sl9{
+    height: 60px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid green;
+
+}
+           
+.slid10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 900px;
+    width: 100%;
+
+}
