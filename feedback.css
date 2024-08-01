@@ -1,0 +1,110 @@
+@font-face {
+    font-family: cfont;
+    src: url(assets/SISTEMAS\ FONT\ BT.ttf);
+}
+
+/* *{
+    background-color: black;
+    color: white;
+} */
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: black; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+
+}
+a{
+    text-decoration: none;
+}
+.line{
+    height: 4px;
+    width: 100%;
+    background-color: red;
+    /* margin-top: 100px; */
+    /* position: fixed; */
+}
+
+
+
+img{
+    height: 60px;
+    width: 200px;
+}
+.ul-li{display: inline-block;
+    color: white;
+    
+ }
+
+ ul li{
+    display: inline-block;
+ }
+.btn{display:inline-block ;
+gap: 20px;}
+
+
+#btn-1{
+    width: 150px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: medium;
+}
+
+#btn-2{
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: medium;
+}
+
+ul li{
+    margin-right: 0px;
+    margin-left: 40px;
+    font-size: medium;
+}
+.icon-{
+    background-color: red;
+}
+.feedback{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.img-fb{
+    height: 500px;
+    width: 100%;
+    background-image: url(assets/feedback.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 0px;
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+
+}
+.op{
+    height: 800px;
+    width: 100%;
+     position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px; 
+   
+}  
+h1{
+    font-size: 40px;
+    font-weight: 900px;
+    
+}
